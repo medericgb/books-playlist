@@ -3,14 +3,17 @@ const graphqlHTTP = require('express-graphql');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
+const cors = require('cors');
+
 const schema = require('./schema/schema');
 
 const app = express();
 
+app.use(cors())
+
 // Connect app to DB / MongoDB Atlas
-const uri = process.env.ATLAS_URI;
 mongoose.connect(
-  uri,
+  process.env.ATLAS_URI,
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
 
