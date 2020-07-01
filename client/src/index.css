@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Ubuntu+Condensed&display=swap');
+
+:root {
+  --title-color: #216869;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+#title {
+  font-family: 'Playfair Display', serif;
+  color: var(--title-color);
+}
