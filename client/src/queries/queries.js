@@ -2,7 +2,7 @@ import { gql } from 'apollo-boost';
 
 
 //// QUERY
-// GET BOOKS AND ITS AUTHOR
+// GET BOOKS
 const GET_BOOKS = gql`
     {
         books {
