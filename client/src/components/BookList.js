@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useQuery, graphql, Query } from 'react-apollo';
 
 // GET BOOKS
-import { GET_BOOKS } from '../queries/queries'
+import { GET_BOOKS } from '../queries/queries';
 
 function BookList() {
     
