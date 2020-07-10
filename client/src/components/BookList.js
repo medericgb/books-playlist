@@ -5,7 +5,7 @@ import { graphql, Query } from 'react-apollo';
 import { GET_BOOKS } from '../queries/queries';
 
 function BookList() {
-    
+    //
     return (
         <Query query={GET_BOOKS}>
             {({ loading, error, data }) => {
