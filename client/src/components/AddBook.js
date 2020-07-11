@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React,{ useState } from 'react';
 import { graphql, Query, useMutation } from 'react-apollo';
 import {flowRight as compose} from 'lodash';
 
